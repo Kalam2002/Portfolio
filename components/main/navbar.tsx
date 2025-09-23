@@ -4,7 +4,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { NAV_LINKS, SOCIALS } from "@/constants";
 import { motion, AnimatePresence } from "framer-motion";
-
 export const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
@@ -13,7 +12,6 @@ export const Navbar = () => {
   return (
     <nav className="fixed top-0 left-0 w-full bg-[#03001427] backdrop-blur-md shadow-lg shadow-[#2A0E61]/50 z-50">
       <div className="flex items-center justify-between h-[70px] px-5 md:px-10">
-        {/* Logo & Name */}
         <Link 
           href="#about-me" 
           className="flex items-center gap-2" 
@@ -28,7 +26,7 @@ export const Navbar = () => {
             className="cursor-pointer"
           />
           <span className="hidden sm:block text-white font-bold tracking-wide">
-            I'm Kalam
+              I&apos;m Kalam
           </span>
         </Link>
 
