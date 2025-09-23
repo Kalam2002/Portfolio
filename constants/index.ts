@@ -38,12 +38,7 @@ export const SKILL_DATA = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
+  
 
   {
     skill_name: "TypeScript",
@@ -60,12 +55,6 @@ export const SKILL_DATA = [
   {
     skill_name: "Framer Motion",
     image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
     width: 80,
     height: 80,
   },
@@ -87,17 +76,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://instagram.com/xenonixorix",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://facebook.com/Kalam128",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://x.com/pathos12345_",
   },
 ] as const;
 
@@ -175,22 +164,35 @@ export const OTHER_SKILL = [
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
-    
-    image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    title: "Tesseract AI",
+    image: "/projects/image-1.png",
+    link: "https://tesseract7ai.netlify.app/",
   },
   {
-    title: "Tekisky – The Future of Tech",
-
-    image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    title: "BlackJack Game",
+    image: "/projects/image-2.png",
+    link: "https://blackjack13.netlify.app/",
   },
   {
-    title: "Speedline Auto Parts – The Future of Auto Parts",
-   
-    image: "/projects/project-3.webp",
-    link: "https://speedlineautoparts.netlify.app/",
+    title: "Weather App",
+    image: "/projects/image-3.png",
+    link: "https://weather-app-kalam.netlify.app/",
+  },
+  // 🔥 New projects
+  {
+    title: "KrishiMitra",
+    image: "/projects/image-4.png",
+    link: "https://github.com/piyushd000/Krishimitra",
+  },
+  {
+    title: "Cryptex",
+    image: "/projects/image-5.png",
+    link: "https://cryptex2-0.onrender.com/",
+  },
+  {
+    title: "Youtube Summarizer AI",
+    image: "/projects/image-6.png",
+    link: "https://github.com/Kalam2002/YoutubeSummarizer",
   },
 ] as const;
 
@@ -202,7 +204,7 @@ export const FOOTER_DATA = [
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Kalam2002",
       },
 
     ],
@@ -214,7 +216,7 @@ export const FOOTER_DATA = [
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/Kalam2002/",
       },
     ],
   },
@@ -225,7 +227,7 @@ export const FOOTER_DATA = [
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        link: "mailto:abdulkalamtmsl@gmail.com",
       },
     ],
   },
@@ -245,5 +247,4 @@ export const NAV_LINKS = [
     link: "#projects",
   },
 ] as const;
-
 
