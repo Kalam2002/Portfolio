@@ -182,7 +182,7 @@ export const PROJECTS = [
   {
     title: "KrishiMitra",
     image: "/projects/image-4.png",
-    link: "https://github.com/piyushd000/Krishimitra",
+    link: "https://krrishimitra.netlify.app/",
   },
   {
     title: "Cryptex",
