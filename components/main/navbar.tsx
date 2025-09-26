@@ -25,7 +25,7 @@ export const Navbar = () => {
             draggable={false}
             className="cursor-pointer"
           />
-          <span className="hidden sm:block text-white font-bold tracking-wide">
+          <span className="block text-white font-bold tracking-wide">
               I&apos;m Kalam
           </span>
         </Link>
